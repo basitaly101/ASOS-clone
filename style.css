@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hind:wght@300;400;500;600;700&family=Lexend:wght@100..900&family=Lugrasimo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');;
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+.navbar{
+  width: 100%;
+  background-color: #3f3737;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.logo{
+  mix-blend-mode: color-burn;
+  
+}
+.logo-head{
+  color: #ffffff;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 56px;
+  letter-spacing: -5px;
+}
+.nav-link{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0px 0px 0px 30px;
+}
+.search{
+  margin: 0px 0px 0px 130px;
+  padding: 10px 400px;
+  border: #000000 2px solid;
+  border-radius: 30px;
+}
+.btn-search{
+  background-color: #3f3737;
+  color: #ffffff;
+  font-size: 30px;
+  padding:10px 20px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+.icon-btn{
+  background-color: #3f3737;
+  color: #ffffff;
+  font-size: 30px;
+  padding:9px 18px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+.nav-container {
+  width: 100%;
+  height: 42px;
+  background-color: #574e4e;
+ 
+}
+.nav-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-li {
+  padding-top: 5px;
+  list-style: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/eng_generic_desktop_1440x698.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0px;
+}
+.men-btn,
+.women-btn {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 12px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.men-btn {
+  background-color: #808080;
+  color: #ffffff;
+  border: 2px solid #000000;
+  padding: 10px 84px;
+  position: relative;
+  top: 754px;
+  left: 1100px;
+}
+.men-btn:hover {
+  background-color: #000000;
+  color: #808080;
+  border: solid 2px #808080;
+}
+.women-btn {
+  background-color: rgb(255, 179, 192);
+  padding: 10px 70px;
+  position: relative;
+  top: 754px;
+  left: 400px;
+}
+.women-btn:hover {
+  background-color: #000000;
+  border: rgb(255, 179, 192) 2px solid;
+  color: rgb(255, 179, 192);
+}
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+ 
+}
+.offer {
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+  border: #000000 3px solid;
+}
+.tittle {
+ background-color: #1a1a1d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+
+}
+.banner, .banner-2{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+.banner{
+  color: #ff6b81;
+}
+.banner-2{
+  color: #f9f871;
+}
+.tittle-1{
+  background-color: #808080;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+
+} 
+.men, .men-2{
+  font-family: "Lugrasimo", cursive;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.men-2{
+  color: #000000;
+}
+.mens-brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2000px;
+}
+.brands-name{
+  border: #000000 3px solid;
+  background-color: #808080;
+  height: 600px;
+  width: 465px;
+  padding: 15px;
+  margin: 2px 2px 2px 5px;
+}
+
+.tittle-2{
+  background-color:  rgb(255, 179, 192);;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+ 
+}
+.women, .women-2{
+  font-family: "Lugrasimo", cursive;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.women-2{
+  color: #2d2175;
+}
+.womens-brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2000px;
+}
+.brands-names{
+  border: #000000 3px solid;
+  background-color: #ff6b81;
+  height: 600px;
+  width: 465px;
+  padding: 15px;
+  margin: 2px 2px 2px 5px;
+}
+/* CSS */
+.footer {
+  background-color: #e2e2e2;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer span {
+  color: #333;
+}
+
+@media screen and (max-width: 1440px) {
+  .navbar{
+    gap: 0px;
+  }
+  .logo{
+    mix-blend-mode: color-burn;
+    
+  }
+  .logo-head{
+    font-size: 46px;
+  }
+  .nav-link{
+    font-size: 18px;
+    margin: 0px 0px 0px 24px;
+  }
+  .search{
+    margin: 0px 0px 0px 66px;
+    padding: 6px 277px;
+    border-radius: 30px;
+}
+  .btn-search{
+    font-size: 24px;
+    padding: 0px 4px;
+   }
+  .icon-btn{
+    font-size: 24px;
+    padding: 3px 6px;
+    border-radius: 30px;
+  }
+  .nav-container {
+    height: 36px;
+   
+  }
+  .nav-order {
+    gap: 13px;
+  }
+  
+  .nav-li {
+    padding-top: 5px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  .main {
+    height: 71vh;
+  }
+  .men-btn,
+  .women-btn {
+    border-radius: 16px;
+    font-size: 16px;
+  }
+  .men-btn {
+    padding: 5px 30px;
+    top: 487px;
+    left: 711px;
+  }
+  .women-btn {
+    padding: 6px 16px;
+    top: 484px;
+    left: 294px;
+  }
+
+  .section-1 {
+    height: 209px;
+  }
+  .offer {
+    height: 209px;
+    width: 324px;
+    padding: 10px;
+  }
+  .tittle {
+    height: 80px;
+  }
+  .banner, .banner-2{
+    font-size: 48px;
+  }
+ 
+  .tittle-1{
+    height: 60px;
+  } 
+  .men, .men-2{
+    font-size: 32px;
+  }
+
+  .brands-name{
+    height: 412px;
+    width: 312px;
+    padding: 6px;
+    margin: 2px 2px 2px 2px;
+}
+  
+  .tittle-2{
+    height: 60px;
+    
+  }
+  .women, .women-2{
+    font-size: 32px;
+  }
+  .brands-names{
+    height: 412px;
+    width: 312px;
+    padding: 6px;
+    margin: 2px 2px 2px 2px;
+}
+  }
+
+
+@media screen and (max-width: 1000px) {
+  .navbar{
+    gap: 0px;
+  }
+  .logo{
+    mix-blend-mode: color-burn;
+    
+  }
+  .logo-head{
+    font-size: 36px;
+  }
+  .nav-link{
+    font-size: 16px;
+    margin: 0px 0px 0px 14px;
+  }
+  .search{
+    margin: 0px 0px 0px 8px;
+    padding: 6px 70px;
+    border-radius: 30px;
+  }
+  .btn-search{
+    font-size: 24px;
+    padding: 0px 4px;
+   }
+  .icon-btn{
+    font-size: 24px;
+    padding: 3px 6px;
+    border-radius: 30px;
+  }
+  .nav-container {
+    height: 36px;
+   
+  }
+  .nav-order {
+    gap: 13px;
+  }
+  .nav-li {
+    padding-top: 5px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  .main {
+    height: 36vh
+  }
+  .men-btn,
+  .women-btn {
+    border-radius: 16px;
+    font-size: 16px;
+  }
+  .men-btn {
+    padding: 5px 30px;
+    top: 329px;
+    left: 442px;
+  }
+  .women-btn {
+    padding: 6px 16px;
+    top: 328px;
+    left: 67px;
+  }
+
+  .section-1 {
+    height: 175px;
+  }
+  .offer {
+    height: 175px;
+    width: 201px;
+    padding: 10px;
+  }
+  .tittle {
+    height: 70px;
+  }
+  .banner, .banner-2{
+    font-size: 36px;
+  }
+ 
+  .tittle-1{
+    height: 55px;
+  } 
+  .men, .men-2{
+    font-size: 24px;
+  }
+
+  .brands-name{
+    height: 295px;
+    width: 197px;
+    padding: 6px;
+    margin: 2px 2px 2px -2px;
+  }
+  
+  .tittle-2{
+    height: 70px
+  }
+  .women, .women-2{
+    font-size: 24px;
+  }
+  .brands-names{
+    height: 295px;
+    width: 197px;
+    padding: 6px;
+    margin: 2px 2px 2px -2px;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .navbar{
+    gap: 0px;
+  }
+  .logo{
+    mix-blend-mode: color-burn;
+    height: 50px;
+  }
+  .logo-head{
+    font-size: 36px;
+  }
+  .nav-link{
+  display: none;
+  }
+  .search{
+   display: none;
+  }
+  .btn-search{
+    font-size: 24px;
+    padding: 0px 4px;
+    margin-left: 176px;
+   }
+  .icon-btn{
+    font-size: 24px;
+    padding: 3px 6px;
+    border-radius: 30px;
+  }
+  .nav-container {
+   display: none;
+   
+  }
+ 
+  .main {
+    height: 24vh;
+  }
+  .men-btn,
+  .women-btn {
+display: none;
+  }
+ 
+
+  .section-1 {
+    height: 312px;
+    flex-wrap: wrap;
+
+  }
+  .offer {
+    height: 146px;
+    width: 205px;
+    padding: 10px;
+  }
+  .tittle {
+    height: 70px;
+  }
+  .banner, .banner-2{
+    font-size: 24px;
+  }
+ 
+  .tittle-1{
+    height: 55px;
+  } 
+  .men, .men-2{
+    font-size: 20px;
+  }
+.mens-brands, .womens-brands{
+  flex-wrap: wrap;
+}
+.brands-name {
+  height: 240px;
+  width: 203px;
+  padding: 6px;
+  margin: 2px 2px 2px -2px;
+}
+  .tittle-2{
+    height: 55px;
+  }
+  .women, .women-2{
+    font-size: 20px;
+  }
+  .brands-names{
+    height: 240px;
+    width: 203px;
+    padding: 6px;
+    margin: 2px 2px 2px -2px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .footer-links {
+    gap: 5px;
+  }
+}
