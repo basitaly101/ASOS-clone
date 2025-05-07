@@ -4,6 +4,9 @@
   margin: 0;
   max-width: 100%;
 }
+body{
+  background-color: #000000;
+}
 .navbar{
   width: 100%;
   background-color: #3f3737;
@@ -556,6 +559,104 @@ display: none;
     padding: 6px;
     margin: 2px 2px 2px -2px;
   }
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .footer-links {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar{
+    gap: 0px;
+  }
+  .logo{
+    mix-blend-mode: color-burn;
+    height: 46px;
+  }
+  .logo-head{
+    font-size: 36px;
+  }
+  .nav-link{
+  display: none;
+  }
+  .search{
+   display: none;
+  }
+  .btn-search{
+    font-size: 24px;
+    padding: 0px 4px;
+    margin-left: 128px;
+   }
+  .icon-btn{
+    font-size: 24px;
+    padding: 3px 6px;
+    border-radius: 30px;
+  }
+  .nav-container {
+   display: none;
+   
+  }
+ 
+  .main {
+    height: 24vh;
+  }
+  .men-btn,
+  .women-btn {
+display: none;
+  }
+ 
+
+  .section-1 {
+    height: 248px;
+    flex-wrap: wrap;
+
+  }
+  .offer {
+    height: 126px;
+    width: 179px;
+    padding: 10px;
+}
+
+  .tittle {
+    height: 60px;
+  }
+  .banner, .banner-2{
+    font-size: 24px;
+  }
+ 
+  .tittle-1{
+    height: 36px;
+  } 
+  .men, .men-2{
+    font-size: 16px;
+  }
+.mens-brands, .womens-brands{
+  flex-wrap: wrap;
+}
+.brands-name {
+  height: 186px;
+  width: 177px;
+  padding: 6px;
+  margin: 2px 2px 2px -2px;
+}
+
+  .tittle-2{
+    height: 36px;
+  }
+  .women, .women-2{
+    font-size: 16px;
+  }
+  .brands-names{
+    height: 186px;
+    width: 177px;
+    padding: 6px;
+    margin: 2px 2px 2px -2px;
+}
   .footer-content {
     flex-direction: column;
     align-items: flex-start;
